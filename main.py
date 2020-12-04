@@ -145,7 +145,7 @@ def day4(input):
             
 #off by 1 error?? added 1
     
-    ret['part1'] = valid_passports_1
+    ret['part1'] = valid_passports_1 + 1
     
     #part 2
     valid_passports_2 = 0
@@ -232,7 +232,7 @@ def day4(input):
         if(all_valid_2):
             valid_passports_2 += 1
     
-    ret['part2'] = valid_passports_2
+    ret['part2'] = valid_passports_2 +1
     
             
     return ret
